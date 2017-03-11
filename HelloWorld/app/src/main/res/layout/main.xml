@@ -1,0 +1,33 @@
+<?xml version = "1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="fill_parent"
+    android:background="@drawable/background1"
+    android:orientation="vertical"
+    >
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Loading Layout..."
+        android:textColor="#ffca74ff"
+        android:textSize="30dp"
+        android:onClick="setContentView" />
+
+    <Button
+        android:id="@+id/mainbutton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go to Activity 2."
+        android:textColor="#fffaf6ff"
+        android:onClick="onMainButtonClick"
+        />
+    <Button
+        android:id="@+id/mainbutton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go to Activity 3"
+        android:textColor="#fffaf6ff"
+        android:onClick="onMainButton2Click"
+        />
+
+ </LinearLayout>

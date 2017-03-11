@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background2"
+    >
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/activity2"
+        />
+    <Button android:id="@+id/Activity2Button1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Go to Main Activity"
+        android:onClick="onActivity2ButtonClick"/>
+ </LinearLayout>
